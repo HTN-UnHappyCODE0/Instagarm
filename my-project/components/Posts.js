@@ -1,19 +1,19 @@
 import React from "react";
-import profile from "../asset/nouser.jpg";
+import profile from "../asset/profile.png";
 import Post from "../components/Post";
 
 const Posts = () => {
   const posts = [
     {
       id: "123",
-      username: "Joe Doe",
+      username: "Nam hoang",
       ProfilePic: profile,
       postPhoto: profile,
       caption: "Hollew form the caption",
     },
     {
       id: "1234",
-      username: "Joe Doee",
+      username: "N",
       ProfilePic: profile,
       postPhoto: profile,
       caption: "Hollew form the caption",

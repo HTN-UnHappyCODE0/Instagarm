@@ -14,7 +14,7 @@ const Post = ({ username, ProfilePic, postPhoto, caption }) => {
             </div>
             <div className="">
               <p className="font-semibold">{username}</p>
-              <p className="text-sm">original Audio</p>
+              <p className="text-sm">qưerr</p>
             </div>
           </div>
           <div className="h-6 w-6">
@@ -23,7 +23,7 @@ const Post = ({ username, ProfilePic, postPhoto, caption }) => {
         </div>
         {/*Photo */}
         <div className="">
-          <img src={postPhoto.src} alt="" />
+          <img src={postPhoto.src} alt="" className="mx-auto" />
         </div>
         {/*button */}
         {/*Caption */}
