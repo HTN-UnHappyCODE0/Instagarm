@@ -16,7 +16,7 @@ const Posts = () => {
       username: "N",
       ProfilePic: profile,
       postPhoto: profile,
-      caption: "Hollew form the caption",
+      caption: "Hollew form the caption ",
     },
   ];
   return (
