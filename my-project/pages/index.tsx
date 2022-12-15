@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import Header from "../components/Header.js";
+import Feed from "../components/Feed.js"
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
@@ -16,6 +17,8 @@ export default function Home() {
       <Header />
 
       {/* Feed */}
+
+      <Feed />
       {/* Modal */}
 
 
